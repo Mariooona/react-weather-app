@@ -1,13 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Weather from "./Weather.js";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <Weather />
     </div>
   );
 }
-
-export default App;
