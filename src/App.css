@@ -6,13 +6,3 @@ body {
   max-width: 600px;
   display: block;
 }
-
-.gitHub-link {
-  display: block;
-  text-align: center;
-  font-size: 12px;
-  font-family: "Courier New", Courier, monospace;
-  opacity: 0.9;
-  max-width: 500px;
-  margin: 20px auto;
-}
