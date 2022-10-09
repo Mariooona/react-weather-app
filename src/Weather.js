@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import formatedDate from "./formatedDate";
 import axios from "axios";
 import "./Weather.css";
 
@@ -8,7 +9,7 @@ export default function Weather(props) {
     setWeatherData({
       ready: true,
       city: response.data.name,
-      date: "Sunday 21:00",
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       temperatureDay: response.data.main.temp_max,
       temperatureNight: response.data.main.temp_min,
@@ -46,7 +47,9 @@ export default function Weather(props) {
         </form>
         <h1>{weatherData.city}</h1>
         <ul className="date">
-          <li>{weatherData.date}</li>
+          <li>
+            <formatedDate date={weatherData.date} />
+          </li>
           <li className="text-capitalize">{weatherData.description}</li>
         </ul>
         <div className="row">
