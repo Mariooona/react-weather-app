@@ -1,55 +1,35 @@
-.container {
-}
 .WeatherApp {
   position: relative;
-
-  padding: 12px;
-
-  background-color: #c4f0ff;
-  border: #155967 solid 1px;
+  padding: 25px;
+  margin: 30px auto;
+  background-color: #061216;
+  border: #061216 solid 1px;
   border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .WeatherApp h1 {
-  display: block;
-  text-align: left;
-  font-weight: 700px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-size: 30px;
-  color: #155967;
+  color: #bfd6dd;
+  margin: 20px 0 0 0;
   line-height: 26px;
-  top: 20px;
-  margin: 0 auto;
-  left: -20px;
 }
 .WeatherApp ul {
   margin: 0;
   padding: 0;
-  display: block;
-  left: -20px;
 }
 .WeatherApp ul .Other-properties {
-  display: block;
   text-align: right;
-}
-.WeatherApp .Other-properties .li {
-  padding: 0;
-  display: block;
-  text-align: right;
-  right: -20px;
+  right: -30px;
+  top: -20px;
 }
 
 .WeatherApp li {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #79a2aa;
   font-size: 15px;
   font-weight: 100;
+  color: #ffffff;
   height: 20px;
   list-style: none;
-  line-height: 5;
-  left: 20px;
 }
 .WeatherApp li:first-letter {
   text-transform: capitalize;
@@ -65,30 +45,18 @@
   opacity: 0.6;
 }
 
-.WeatherApp .search-weather {
-  display: inline-block;
-  max-width: 400px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  left: 200px;
-}
-.WeatherApp .col-3 btn btn-warning w-100 {
-  display: block;
-  position: relative;
-  right: 30px;
-}
 .WeatherApp .weather-temperature {
   display: block;
   left: -10px;
 }
 .WeatherApp .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: rgb(238, 230, 230);
   font-size: 50px;
   line-height: 3;
   font-weight: 600;
 }
 .WeatherApp .weather-temperature small {
-  color: rgb(33, 33, 33);
+  color: rgb(245, 235, 235);
   font-size: 30px;
   line-height: 3;
   font-weight: 600;
@@ -97,14 +65,16 @@
 }
 .WeatherApp .weather-temperature .units {
   position: relative;
-  font-size: 15px;
-  top: -30px;
-  font-weight: 600;
   text-decoration: none;
+  color: rgb(238, 230, 230);
+  font-size: 15px;
+  font-weight: 600;
+  top: -30px;
+  margin-left: 5px;
 }
 
 .WeatherApp .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: rgb(238, 230, 230);
   cursor: default;
   text-decoration: none;
 }
@@ -114,28 +84,4 @@
 .WeatherApp .weather-temperature .degreesNight {
   display: inline-block;
   margin: 0px 10px auto;
-}
-
-.WeatherApp .five-Days-forecast {
-  margin-top: 10px;
-  font-weight: 800;
-  display: block;
-  text-align: center;
-  color: #155967;
-  left: -10px;
-  padding: 0 auto;
-  line-height: 1;
-}
-.WeatherApp .five-Days-forecast-date {
-  font-size: 18px;
-  display: block;
-  text-align: center;
-  opacity: 0.8;
-}
-.WeatherApp .five-Days-forecast-temperatures {
-  font-size: 16px;
-}
-.WeatherApp .Forecast-night-temperature-min {
-  opacity: 0.5;
-  font-size: 14px;
 }
