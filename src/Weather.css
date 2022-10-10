@@ -11,7 +11,7 @@
   font-weight: 100;
   font-size: 30px;
   color: #bfd6dd;
-  margin: 20px 0 0 0;
+  margin: 20px 0 10px 0;
   line-height: 26px;
 }
 .WeatherApp ul {
@@ -19,29 +19,22 @@
   padding: 0;
 }
 .WeatherApp ul .Other-properties {
-  text-align: right;
+  display: inline-block;
   right: -30px;
   top: -20px;
 }
-
 .WeatherApp li {
   font-size: 15px;
   font-weight: 100;
   color: #ffffff;
-  height: 20px;
   list-style: none;
-  line-height: 4;
-  left: 20px;
+  line-height: 20px;
 }
 
-.WeatherApp .Sun-icon {
-  height: 80px;
-  width: 80px;
-  position: relative;
-  top: -20px;
-  right: -10px;
-  animation-duration: 2s;
-  opacity: 0.6;
+.WeatherApp canvas {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
 }
 
 .WeatherApp .weather-temperature {
