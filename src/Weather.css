@@ -1,11 +1,15 @@
 .WeatherApp {
   position: relative;
-  padding: 25px;
+  padding: 20px;
   margin: 30px auto;
   background-color: #061216;
   border: #061216 solid 1px;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 700px;
+}
+.WeatherApp form {
+  margin-bottom: 20px;
 }
 .WeatherApp h1 {
   font-weight: 100;
@@ -43,7 +47,7 @@
 }
 .WeatherApp .weather-temperature strong {
   color: rgb(238, 230, 230);
-  font-size: 35px;
+  font-size: 40px;
   line-height: 3;
   font-weight: 600;
 }

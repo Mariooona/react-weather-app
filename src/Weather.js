@@ -44,7 +44,7 @@ export default function Weather(props) {
           id="search-form"
         >
           <div className="row">
-            <div className="col-6">
+            <div className="col-9">
               <input
                 type="search"
                 className="form-control w-400"
@@ -58,11 +58,8 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-light w-80"
+                className="btn btn-light w-100"
               />
-            </div>
-            <div className="col-3">
-              <button className="btn btn-warning w-80">Current</button>
             </div>
           </div>
         </form>
