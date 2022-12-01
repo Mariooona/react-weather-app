@@ -3,8 +3,7 @@ import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
-export default function weatherInfo(props) {
-  console.log(props.data);
+export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
@@ -26,7 +25,7 @@ export default function weatherInfo(props) {
           </div>
         </div>
         <div className="col-6">
-          <ul className="Other-properties">
+          <ul className="float-right" id="Other-properties">
             <li>
               Wind: <span>{Math.round(props.data.wind)} </span> Km/H
             </li>

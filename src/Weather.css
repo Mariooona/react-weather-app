@@ -22,9 +22,9 @@
   margin: 0;
   padding: 0;
 }
-.WeatherApp ul .Other-properties {
-  display: flex;
-  justify-content: flex-end;
+.WeatherApp li #Other-properties {
+  display: block;
+  position: relative;
   right: -30px;
   top: -20px;
 }
@@ -34,6 +34,7 @@
   color: #ffffff;
   list-style: none;
   line-height: 20px;
+  display: block;
 }
 .WeatherApp canvas {
   margin-top: 10px;
@@ -42,24 +43,15 @@
 }
 
 .WeatherApp .weather-temperature {
-  display: block;
-  left: -10px;
-}
-.WeatherApp .weather-temperature strong {
-  color: rgb(238, 230, 230);
+  color: #bfd6dd;
   font-size: 40px;
   line-height: 3;
   font-weight: 600;
-}
-.WeatherApp .weather-temperature small {
-  color: rgb(245, 235, 235);
-  font-size: 20px;
-  line-height: 3;
-  font-weight: 600;
-  opacity: 0.3;
+  display: block;
   left: -10px;
 }
-.WeatherApp .weather-temperature .units {
+
+.weather-temperature .unit {
   position: relative;
   text-decoration: none;
   color: rgb(238, 230, 230);
@@ -67,6 +59,7 @@
   font-weight: 600;
   top: -30px;
   margin-left: 5px;
+  line-height: 1;
 }
 
 .WeatherApp .weather-temperature .active {
@@ -76,8 +69,4 @@
 }
 .WeatherApp .weather-temperature .active:hover {
   text-decoration: none;
-}
-.WeatherApp .weather-temperature .degreesNight {
-  display: inline-block;
-  margin: 0px 10px auto;
 }
