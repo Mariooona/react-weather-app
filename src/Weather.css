@@ -6,7 +6,7 @@
   border: #061216 solid 1px;
   border-radius: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 700px;
+  max-width: 600px;
 }
 .WeatherApp form {
   margin-bottom: 20px;
@@ -23,7 +23,8 @@
   padding: 0;
 }
 .WeatherApp ul .Other-properties {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
   right: -30px;
   top: -20px;
 }
@@ -34,7 +35,6 @@
   list-style: none;
   line-height: 20px;
 }
-
 .WeatherApp canvas {
   margin-top: 10px;
   margin-left: 10px;
