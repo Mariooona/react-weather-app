@@ -36,7 +36,7 @@
   justify-content: right;
 }
 .WeatherApp canvas {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-right: 15px;
   display: inline-block;
 }
