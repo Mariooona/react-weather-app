@@ -15,7 +15,7 @@
   font-weight: 100;
   font-size: 35px;
   color: #bfd6dd;
-  margin: 20px 0 10px 0px;
+  margin: 25px 0 10px 0px;
   line-height: 26px;
 }
 .WeatherApp ul {
@@ -31,11 +31,15 @@
   line-height: 20px;
   margin-left: 10px;
 }
+ul,
+li #Other-properties {
+  margin-right: 20px;
+}
 
 .WeatherApp canvas {
   margin-top: 10px;
   display: inline-block;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .WeatherApp .weather-temperature {
@@ -44,7 +48,7 @@
   line-height: 2;
   font-weight: 600;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .weather-temperature .unit {

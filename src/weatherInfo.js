@@ -15,7 +15,7 @@ export default function WeatherInfo(props) {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <div className="clearfix weather-temperature">
+          <div className="d-flex weather-temperature">
             <div className="float-left">
               <WeatherTemperature celcius={props.data.temperature} />
             </div>
@@ -25,7 +25,7 @@ export default function WeatherInfo(props) {
           </div>
         </div>
         <div className="col-6">
-          <ul className="float-left" id="Other-properties">
+          <ul className="float-right" id="Other-properties">
             <li>
               Wind: <span>{Math.round(props.data.wind)} </span> Km/H
             </li>
