@@ -39,7 +39,6 @@ li #Other-properties {
 .WeatherApp canvas {
   margin-top: 10px;
   display: inline-block;
-  margin-left: 30px;
 }
 
 .WeatherApp .weather-temperature {
@@ -60,6 +59,7 @@ li #Other-properties {
   top: -30px;
   margin-left: 5px;
   line-height: 1;
+  margin-right: 15px;
 }
 
 .WeatherApp .weather-temperature .active {
