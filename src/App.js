@@ -12,7 +12,7 @@ export default function App() {
             href="https://cosmic-faun-333eb7.netlify.app/"
             className="portfolio-link"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Alina-Marija Lapčiuk
           </a>{" "}
@@ -21,7 +21,7 @@ export default function App() {
             className="gitHub-link"
             href="https://github.com/Mariooona/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             is open-sourced on GitHub
           </a>
