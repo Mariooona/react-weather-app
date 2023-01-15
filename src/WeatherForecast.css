@@ -1,6 +1,7 @@
 .WeatherForecast {
   text-align: center;
   color: white;
+  font-size: 13px;
 }
 .WeatherForecast-day {
   font-weight: bold;
